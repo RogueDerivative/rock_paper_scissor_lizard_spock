@@ -5,6 +5,7 @@
 
 ## imports
 import random
+## welcome statement and program description
 print("Welcome to the Big Bang Rock Paper Scissors Lizard Spock game\n")
 print("You will be asked to choose an item to throw.\n")
 print("The computer will then randomly generate one of the choices against you.\n")
