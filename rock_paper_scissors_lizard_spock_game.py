@@ -28,15 +28,15 @@ print("Spelling does matter. No choices are capitalized.\n")
 throw = ["rock","paper","scissors","lizard","spock"]
 ## comparison test function
 def throw_down (user_input, computer_choice):
-    if computer_choice == ("scissors" or "lizard") and user_input == "rock":
+    if (computer_choice == "scissors" or computer_choice == "lizard") and user_input == "rock":
         print("You won!\n")
-    elif computer_choice == ("rock" or "spock") and user_input == "paper":
+    elif (computer_choice == "rock" or computer_choice == "spock") and user_input == "paper":
         print("You won!\n")
-    elif computer_choice == ("paper" or "lizard") and user_input == "scissors":
+    elif (computer_choice == "paper" or computer_choice == "lizard") and user_input == "scissors":
         print("You won!\n")
-    elif computer_choice == ("paper" or "spock") and user_input == "lizard":
+    elif (computer_choice == "paper" or computer_choice == "spock") and user_input == "lizard":
         print("You won!\n")
-    elif computer_choice == ("rock" or "scissors") and user_input == "spock":
+    elif (computer_choice == "rock" or computer_choice == "scissors") and user_input == "spock":
         print("You won!\n")
     elif user_input == computer_choice:
         print("It's a tie!\n")
@@ -57,8 +57,8 @@ else:
 # computer chooses
 computer_choice = computer_throw(throw)
 print("The computer threw: ",computer_choice,"\n")
-# The throw down!!
+# function call
 throw_down(user_input, computer_choice)
 
 
-print("This is the end. This is the end my friend")
+
